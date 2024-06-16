@@ -2,3 +2,21 @@ Section A
   2) echo $HOME
 
   3) id
+
+  4) 
+    ls | grep mem
+    ls | grep cpu
+
+  5) head meminfo
+
+  6) 
+    head cpuinfo
+    tail cpuinfo
+
+  7) 
+    ls | grep sys
+    cat system-release
+
+
+Section B
+  8) 
