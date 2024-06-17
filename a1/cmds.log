@@ -20,3 +20,8 @@ Section A
 
 Section B
   8) 
+    grep 2019-05-12 2019-05.csv | cut -d "," -f 17 | awk '{s+=$1} END {print s}'
+    grep 2019-05-12 2019-05.csv | cut -d "," -f 17 | wc
+    echo "4268840 / 228706" | bc
+
+  9) grep 2019-05-12 2019-05.csv | cut -d "," -f 17 | sort -n | tail
