@@ -16,5 +16,5 @@ if [[ -f "$1" ]]; then
         *)          echo "$1 is not a 'tar' file" ;;
     esac
 else
-    echo "$1 is not a valid file"
+    echo "$1 is not a valid 'tar' file"
 fi
