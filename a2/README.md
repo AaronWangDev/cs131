@@ -5,12 +5,16 @@ What this command does
 
 Why/When this command is useful
 
-    With a large variety of different .tar files out there, and the respective options needed to properly extract them, this command
-    helps users easily work with any tar file they need.
+    With a large variety of different .tar files out there, and the respective options needed to properly extract them, 
+    this command helps users easily work with any tar file they need.
 
 How you can use this command
 
-    
+    1. Clone extract_tar and place it somewhere in your $PATH. 
+            a. Alternatively, place the file in a static location, change directories to that location, 
+               and run 'export PATH=$(pwd):$PATH'
+
+    2. Usage of the command is: "extract_tar [tar file]"
 
 Examples (Copy/Paste the actual terminal execution results)
 
