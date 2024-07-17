@@ -8,4 +8,4 @@
 
 4) awk -F , '$17>9 {tip[$14]++} END {for (amount in tip) print amount, tip[amount]}' 2019-10.csv > results.txt
 
-5) 
+5) awk '{tip[$1]=$2} END {asort(tip); for (amount in tip) print amount, tip[amount]}' results.txt | tac | head -5
